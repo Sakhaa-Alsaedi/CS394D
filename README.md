@@ -12,3 +12,12 @@ Step 3: Crate an enviroments conda create -p env source activate ./env
 Step 4: Run Jupyter notebook on ibex, copy the link and add ibex.kaust.edu.sa after the node name module load anaconda3 export JUPYTER_RUNTIME_DIR=/tmp jupyter notebook --no-browser --ip=0.0.0.0 --port=$SLURM_STEP_RESV_PORTS
 
 Important notes: The main experiment in the Main Models folder, which contains the transfer learning approach and pre-trained model on the augmented dataset. The code implemented on jupyter notebook, you just need to load the attached dataset and run blocks.
+
+
+DATASET:
+1- The public chest X-ray images available on https://www.kaggle.com/tawsifurrahman/covid19-radiography-database
+
+Note:
+load data and change directories to your directory.
+since the size of data massive, only a very small part from augmented images generated from the GAN and transformation part is available on the following:
+https://drive.google.com/file/d/14hfHZCijMiE5m1G1VJ-9L_z66_Hl3F8H/view?usp=sharing
