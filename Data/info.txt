@@ -1,1 +1,5 @@
-
+The public chest X-ray images available on https://www.kaggle.com/tawsifurrahman/covid19-radiography-database
+ 
+Note:
+load data and change directories to your directory.
+since the size of data massive, only a very small part from augmented images generated from the GAN and transformation part is available on the following: https://drive.google.com/file/d/14hfHZCijMiE5m1G1VJ-9L_z66_Hl3F8H/view?usp=sharing
